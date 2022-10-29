@@ -1,5 +1,5 @@
 <?php
- if (isset($_GET)){
+ 
     $slackUsername = (string) "Marshal";
     $backend = (boolean) true;
     $age = (int) 26;
@@ -14,7 +14,7 @@
     ]);
         echo $res;
 
- } 
+ 
 
 ?>
 
